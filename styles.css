@@ -1,1 +1,23 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+ul#band {
+  list-style: square inside;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul#band li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
